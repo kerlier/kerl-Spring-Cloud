@@ -1,0 +1,16 @@
+server:
+  port: 10006 # server.port也可以放到nacos中的配置中心，同样会起作用
+# 远程配置文件文件名如下 ${application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: nacos-config-consumer
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: b21c6bb1-be4b-4f99-a0b7-ea2619318fa9 # 可以指定group
+        group: nacos-config-version-2
+        file-extension: yaml

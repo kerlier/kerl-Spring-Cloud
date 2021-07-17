@@ -27,3 +27,6 @@ basic-spring-cloud/spring-cloud-feign-consumer/target/
 basic-spring-cloud/spring-cloud-feign-provider/target/
 basic-spring-cloud/spring-cloud-nacos-consumer/target/
 basic-spring-cloud/spring-cloud-nacos-discovery/target/
+basic-spring-cloud/spring-cloud-zuul/target/
+.DS_Store
+basic-spring-cloud/spring-cloud-nacos-config/target/

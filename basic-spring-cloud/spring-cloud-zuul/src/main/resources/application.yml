@@ -1,0 +1,15 @@
+server:
+  port: 10008
+#zuul:
+#  routes:
+#    feign-consumer:
+#      path: /feign-consumer/**
+#      serviceId: feign-consumer
+
+spring:
+  application:
+    name: fashion-zuul
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
